@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "ethnocentric";
+  src: url("ethnocentric rg.ttf")
+}
+h1{
+  color: #B50024;
+  font-size: 36pt;
+  margin-bottom: -80px;
+}
+
+body {
+  background-image:url("Honey Comb.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.sign-up{
+     margin-top: 100px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 35px;
+     width: 400px;
+     padding: 10px;
+     border: 1px;
+     background: #8E8E8E;
+     border-radius: 5px;
+     opacity: 0.9;
+ }
+
+ input[name="firstname"], input[name="lastname"], input[type=password]{
+   margin: 5px auto;
+   width: 43%;
+   padding: 10px;
+   font-size: 16px;
+ }
+
+ input[name="username"], input[type="email"], input[type="number"],
+ input[type="number"], input[type="date"] {
+     margin-top: 5px auto;
+     width: 373px;
+     padding: 10px;
+     font-size: 16px;
+ }
+
+ input[type="radio"]{
+   margin-left: 15px;
+   margin-top: 5px;
+ }
+
+ button[type=submit]{
+   background: #C6C6C6;
+   font-weight: bold;
+   margin-left:115px;
+   padding: 3px;
+   width: 80px;
+   border: 1px;
+   cursor: pointer;
+ }
+
+ button[type=reset]{
+   background: #BBBBBB4;
+   font-weight: bold;
+   margin-right: 100px;
+   padding: 3px;
+   width: 80px;
+   border: 1px;
+   cursor: pointer;
+   background-color: "red";
+ }
+
+ button[type="submit"]{
+  background: #474747;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-left: auto;
+  width: 400px;
+  border-radius: 5px;
+  padding: 7px
+}
+
+  button[type="submit"]:hover {
+    background: #B50024;
+}
