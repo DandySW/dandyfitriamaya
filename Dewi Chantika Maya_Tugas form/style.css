@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+  font-size: 16px;
+  color: #777;
+  font-family: sans-serif;
+  font-weight: 300;
+  background: url("https://motionarray.imgix.net/preview-82967-gZ6ArOJAiM-high_0011.jpg");
+}
+#login-box{
+  position: relative;
+  margin: 5% auto;
+  height: 400px;
+  width: 300px;
+  background: #FFC0CB;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 19px;
+
+}
+.left-box{
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+}
+h1{
+  position: center;
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 28px;
+}
+input[type="text"],
+input[type="password"]{
+  display: block;;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #aaa;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  transition: 0.2% ease;
+}
+input[type="submit"]{
+  margin-bottom: 28px;
+  width: 120px;
+  height: 32px;
+  background: #f44336;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition:  0.2% ease;
+  cursor: pointer;
+}
+input[type="submit"]:hover,
+input[type="submit"]:focus{
+  background: #ff5722;
+  transition: 0.2% ease;
+
+}
+.or{
+  position: absolute;
+  top: 250px;
+  left: 660px;
+  width: 40px;
+  height: 40px;
+  background: #efefef;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  line-height: 400px;
+  text-align: center;
+}
