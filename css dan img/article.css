@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #efefef;
+  font-size: 16px;
+  color: #777;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+header{
+  overflow: hidden;
+  width: 1366;
+  height:60;
+  background-color: #DBDBDB;
+}
+.headerKanan{
+  float: right;
+  margin-top: -66px;
+  margin-right: 10px;
+}
