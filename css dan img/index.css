@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("Raleway-SemiBold.ttf")
+}
+
+@font-face {
+  font-family: "Raleway2";
+  src: url("Raleway-Light.ttf")
+}
+
+body{
+  margin: 10;
+  padding: 10;
+  background-color: white;
+  background-image: url(Background.jpg);
+  background-repeat: repeat-x;
+}
+
+.judul{
+  color: white;
+  font-family: "Raleway";
+  font-size: 40px;
+}
+
+h4{
+  color: white;
+  font-family: "Raleway2";
+  font-size: 30px;
+}
+
+.letstart{
+  color: white;
+  font-family: "Raleway2";
+}
+
+.wisata{
+  color: black;
+  font-family: "Raleway";
+  font-size: 30px;
+
+}
