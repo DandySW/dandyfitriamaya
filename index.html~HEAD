@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="Index gambar dan css/index.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="headerKiri">
+        <img src="Index gambar dan css/Kota Osing-white.png" widh="280" height="80">
+        <div class="headerKanan">
+          <img src="Index gambar dan css/Untitled-2.png" widh="30" height="30">
+        </div>
+      </div>
+    </div>
+
+
+    </div>
+    <br><br><br><br><br><br>
+
+    <div class="judul">
+      The Sunrise of Java<br><br><br>
+    </div>
+
+    <div class="explore">
+      EXPLORE THE AMAZING CITY<br><br><br><br><br><br><br>
+    </div>
+
+    <div class="letstart">
+      <!-- <tr>
+          <center><td><input type="submit" name="selesai" value="Let's Start!"></td></center>
+      </tr><br><br><br><br> -->
+  <p> Let's Start </p>
+    </div>
+
+    <div class="wisata">
+      Dapatkan Pengalaman Terbaik
+    </div> <br>
+
+    <div class="baluran">
+      <img src="Index gambar dan css/Baluran.jpg" width="300" height="300">
+        <div class="textbaluran">
+          Taman Nasional Baluran
+        </div>
+    </div>
+    <div class="bangsring">
+      <img src="Index gambar dan css/Bangsring.jpg" width="300" height="300">
+        <div class="textbangsring">
+          Bangsring Under Water
+        </div>
+    </div>
+    <div class="ijen">
+      <img src="Index gambar dan css/Ijen.jpg" width="300" height="300">
+        <div class="textijen">
+          Kawah Ijen
+        </div>
+    </div>
+
+    <div class="pulaumerah">
+      <img src="Index gambar dan css/Pulau Merah.jpg" width="300" height="300"><br><br>
+        <div class="textpulaumerah">
+          Pulau Merah
+        </div>
+    </div>
+
+    <div class="sadengan">
+      <img src="Index gambar dan css/Sadengan.jpg" width="300" height="300">
+        <div class="textsadengan">
+          Sadengan
+        </div>
+    </div>
+
+    <div class="tabuhan">
+      <img src="Index gambar dan css/Tabuhan.jpg" width="300" height="300">
+        <div class="texttabuhan">
+          Tabuhan
+        </div>
+    </div>
+
+    <div class="watudodol">
+      <img src="Index gambar dan css/Watu Dodol.jpg" width="300" height="300">
+        <div class="textwatudodol">
+          Watu Dodol
+        </div>
+    </div>
+
+    <div class="plengkung">
+      <img src="Index gambar dan css/G-land.jpeg" width="300" height="300">
+        <div class="textplengkung">
+          Pulau Plengkung
+        </div>
+    </div>
+
+
+
+    <div class="boxperjalanan">
+        <img src="Index gambar dan css/car.png" width="120" height="150">
+        <div class="textperjalanan">
+          <h4>Perjalanan</h4>
+          <p>Sangat mudah untuk mencapai tempat wisata</p>
+        </div>
+    </div>
+
+    <div class="boxakomodasi">
+        <img src="Index gambar dan css/bed.png" width="120" height="150">
+        <div class="textakomodasi">
+          <h4>Akomodasi</h4>
+          <p>Terdapat banyak pilihan untuk memilih penginapan yang sesuai dengan kenyamanan</p>
+        </div>
+    </div>
+
+    <div class="boxkebudayaan">
+        <img src="Index gambar dan css/Dance.png" width="120" height="150">
+        <div class="textkebudayaan">
+          <h4>Kebudayaan</h4>
+          <p>Terdapat berbagai macam suku yang tinggal di Banyuwangi</p>
+        </div>
+    </div>
+
+    <div class="boxbiaya">
+        <img src="Index gambar dan css/money.png" width="120" height="150">
+        <div class="textbiaya">
+          <h4>Biaya</h4>
+          <p>Biaya untuk masuk ke tempat wisata sangat terjangkau</p>
+        </div>
+    </div>
+
+
+    <div class="artikel">
+      Tips & Artikel
+    </div>
+
+
+    <div class="boxasal">
+        <img src="Index gambar dan css/Blog 1.jpg" width="285" height="230">
+        <div class="textasal">
+          <h4>Asal-usul Banyuwangi</h4>
+          <p>11 September 2019</p>
+        </div>
+    </div>
+
+    <div class="boxtips">
+        <img src="Index gambar dan css/Blog 2.jpg" width="285" height="230">
+        <div class="texttips">
+          <h4>10 Tips Traveling untuk Mahasiswa</h4>
+          <p>11 September 2019</p>
+        </div>
+    </div>
+
+    <div class="boxholiday">
+        <img src="Index gambar dan css/Blog 3.jpg" width="285" height="230">
+        <div class="textholiday">
+          <h4>7 Tips Liburan Hemat dan Menyenangkan</h4>
+          <p>11 September 2019</p>
+        </div>
+    </div>
+
+    <div class="boxwisata">
+        <img src="Index gambar dan css/Blog 4.jpg" width="285" height="230">
+        <div class="textwisata">
+          <h4>8 Tempat Wisata Banyuwangi Paling Hits</h4>
+          <p>11 September 2019</p>
+        </div>
+    </div>
+
+
+    <div class="boxhijau">
+      <div class="textboxhijau">
+        <h2>Berlangganan kepada kami</h2>
+        <p>Klik berlangganan untuk mendapatkan berita terbaru dari kami</p>
+      </div>
+        <div class="boxlangganan">
+
+
+        </div>
+    </div>
+
+    <div class="boxabu">
+
+    </div>
+
+
+  </body>
+</html>
