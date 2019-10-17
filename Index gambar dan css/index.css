@@ -686,7 +686,6 @@ p.masuk{
     margin-left: 1%;
   }
 
-
   img.headerKanan{
     float: none;
     margin-top: -53%;
@@ -694,4 +693,9 @@ p.masuk{
     width: 1%;
     height: 1%;
     position: absolute;
+  }
+
+  img.background{
+    width: 300%;
+    height: 50%;
   }
