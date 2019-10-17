@@ -144,8 +144,8 @@ p.textsaran1 {
   float: left;
   position: absolute;
   width: 25%;
-  top: 238%;
-  left :5%;
+  top: 220%;
+  left :4%;
   font-size:90%;
   text-indent: inherit;
 }
@@ -156,8 +156,8 @@ p.textsaran2{
   float: left;
   position: absolute;
   width: 25%;
-  top: 238%;
-  left :35%;
+  top: 220%;
+  left :34%;
   font-size:90%;
   text-indent: inherit;
 }
@@ -168,8 +168,8 @@ p.textsaran3{
   float: left;
   position: absolute;
   width: 25%;
-  top: 238%;
-  left :65%;
+  top: 220%;
+  left :64%;
   font-size:90%;
   text-indent: inherit;
 }
@@ -184,6 +184,9 @@ input.tambahwisata{
   color: white;
   border-style: solid;
   border-radius: 100px;
+}
+input.tambahwisata:hover{
+  background: #50CCB3;
 }
 div.footertop{
   background-color:#878787;
@@ -200,7 +203,7 @@ p.syaratdanketentuan{
   float: left;
   position: absolute;
   width: 20%;
-  top:277%;
+  top:260%;
   left :-2%;
   font-size:90%;
   text-align: inherit;
@@ -211,7 +214,7 @@ p.privasi{
   float: right;
   position: absolute;
   width: 352px;
-  top:277%;
+  top:260%;
   left :11%;
   font-size:90%;
   text-align: inherit;
@@ -222,7 +225,7 @@ p.hubungikami{
   float: none;
   position: absolute;
   width: 20%;
-  top:277%;
+  top:260%;
   left :24%;
   font-size:90%;
   text-align: inherit;
@@ -233,7 +236,7 @@ p.faq{
   float: none;
   position: absolute;
   width:20%;
-  top:277%;
+  top:260%;
   left :33%;
   font-size:90%;
   text-align: inherit;
@@ -255,8 +258,8 @@ div.formcreate{
   padding-top:30px ;
 }
 input{
-margin-left: 20%;
-width: 50%;
+margin-left: 5%;
+width: 65%;
 border-radius: 5px;
 }
 .post-btn{
@@ -264,13 +267,14 @@ border-radius: 5px;
   border-radius: 10px;
   color: black;
   margin-top: 1%;
+  margin-left: -5%;
 }
 textarea{
-  margin-left: 20%;
+  margin-left: -8%;
   margin-top: -1%;
 }
 p.textarea{
-  margin-left: 12%;
+  margin-left: 15%;
   margin-top: -0.5%;
   font-family: sans-serif;
   color: black;
@@ -284,7 +288,7 @@ a.batal{
 }
 @media screen (max width: 800px){
   div.headerBox{
-    
+
   }
 
 }
