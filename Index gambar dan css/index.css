@@ -12,36 +12,43 @@
   font-family: "Raleway3";
   src: url("Raleway-Regular.ttf")
 }
+
+img.background{
+  width: 101.6%;
+  height: 50%;
+  position: relative;
+  margin-left: -1%;
+  margin-top: -1%;
+  margin-right: -1%;
+}
+
 img.headerKiri{
-  width: 30%;
-  height : 20%;
-  margin-top: 0.5%;
+  width: 23%;
+  height : 13%;
+  margin-top:-56%;
   margin-left: 1%;
+  position: absolute;
 }
 
 
 img.headerKanan{
   float: right;
-  margin-top: -4%;
-  margin-left: 70%;
+  margin-top: -53%;
+  margin-left: 92%;
   width: 5%;
   height: 5%;
+  position: absolute;
 }
 
-body{
-  margin: 10;
-  padding: 10;
-  background-color: white;
-  background-image: url(Background.jpg);
-  background-repeat: repeat-x;
-}
 
 p.sunrise{
   color: white;
   font-family: "Raleway1";
   font-size: 5vw;
-  text-align: center;
-  margin-top: 6%;
+  margin-top: -45%;
+  position: absolute;
+  margin-left: 25%;
+
 }
 
 p.explore{
@@ -49,19 +56,22 @@ p.explore{
   color: white;
   font-family: "Raleway2";
   font-size: 2vw;
-  margin-top: 7%;
+  margin-top: -32%;
+  position: absolute;
+  margin-left: 35%;
 }
 
-.letstart{
+p.letstart{
   color: white;
   font-family: "Raleway2";
   border-style: solid;
   border-radius: 100px;
   width: 10%;
   text-align: center;
-  margin-left: 45%;
-  margin-top: 10%;
+  margin-left: 42%;
+  margin-top: -20%;
   padding: 1.5%;
+  position: absolute;
 }
 
 p.wisata{
@@ -69,7 +79,7 @@ p.wisata{
   color: black;
   font-family: "Raleway1";
   font-size: 3vw ;
-  margin-top: 16%;
+  margin-top: 4%;
 }
 
 img.baluran {
@@ -84,10 +94,11 @@ p.textbaluran{
   color: black;
   font-family: "Raleway3";
   position: absolute;
-  font-size: 1.8vw;
+  font-size: 130%;
   text-align: center;
   margin-top: 3%;
-  margin-left: 2%;
+  margin-left: 62px;
+  width: 180px;
 
 }
 
@@ -98,14 +109,16 @@ img.bangsring {
   padding: 15px 15px 15px 2px;
   margin-right: 8px;
 }
+
 p.textbangsring{
   color: black;
   font-family: "Raleway3";
   position: absolute;
-  font-size: 1.8vw;
+  font-size: 130%;
   text-align: center;
   margin-top: 3%;
-  margin-left: 27%;
+  margin-left: 30.5%;
+  width: 180px;
 }
 
 img.ijen {
@@ -120,10 +133,11 @@ p.textijen {
   color: black;
   font-family: "Raleway3";
   position: absolute;
-  font-size:1.8vw;
+  font-size:130%;
   text-align: center;
   margin-top: 3%;
-  margin-left: 57%;
+  margin-left: 55.5%;
+  width: 180px;
 }
 
 img.pulaumerah {
@@ -139,10 +153,11 @@ p.textpulaumerah {
   color: black;
   font-family: "Raleway3";
   position: absolute;
-  font-size:1.8vw;
+  font-size:130%;
   text-align: center;
   margin-top: 3%;
-  margin-left: 82%;
+  margin-left: 80%;
+  width: 180px;
 }
 
 img.sadengan {
@@ -158,10 +173,11 @@ p.textsadengan {
   color: black;
   font-family: "Raleway3";
   position: absolute;
-  font-size:1.8vw;
+  font-size:130%;
   text-align: center;
   margin-top: 27.5%;
-  margin-left: 7.5%;
+  margin-left: 5.5%;
+  width: 180px;
 }
 
 img.tabuhan {
@@ -177,10 +193,11 @@ p.texttabuhan{
   color: black;
   font-family: "Raleway3";
   position: absolute;
-  font-size:1.8vw;
+  font-size:130%;
   text-align: center;
   margin-top: 27.5%;
-  margin-left: 33.5%;
+  margin-left: 30%;
+  width: 180px;
 }
 
 img.watudodol {
@@ -196,10 +213,11 @@ p.textwatudodol{
   color: black;
   font-family: "Raleway3";
   position: absolute;
-  font-size:1.8vw;
+  font-size:130%;
   text-align: center;
   margin-top: 27.5%;
-  margin-left: 56.8%;
+  margin-left: 55.3%;
+  width: 180px;
 }
 
 img.plengkung {
@@ -215,13 +233,14 @@ p.textplengkung{
   color: black;
   font-family: "Raleway3";
   position: absolute;
-  font-size:1.8vw;
+  font-size:130%;
   text-align: center;
   margin-top: 27.5%;
-  margin-left: 79.5%;
+  margin-left: 81%;
+  width: 180px;
 }
 
-.boxperjalanan{
+div.boxperjalanan{
   width: 250px;
   height: 400px;
   left: 50px;
@@ -233,7 +252,7 @@ p.textplengkung{
   margin-top: 7%;
 }
 
-.boxperjalanan .textperjalanan h4{
+h4.gambar1{
   color: black;
   font-family: "Raleway2";
   text-align: center;
@@ -241,7 +260,7 @@ p.textplengkung{
   margin-top: 10%;
 }
 
-.boxperjalanan .textperjalanan p{
+p.gambar1{
   color: black;
   font-family: "Raleway3";
   text-align: center;
@@ -249,12 +268,12 @@ p.textplengkung{
   margin-top: -5%;
 }
 
-.boxperjalanan img{
+img.gambar1{
   margin-top: 10%;
   margin-left: 27%;
 }
 
-.boxakomodasi{
+div.boxakomodasi{
   width: 250px;
   height: 400px;
   left: 100px;
@@ -266,7 +285,7 @@ p.textplengkung{
   margin-top: 7%;
 }
 
-.boxakomodasi .textakomodasi h4{
+h4.gambar2{
   color: black;
   font-family: "Raleway2";
   text-align: center;
@@ -274,7 +293,7 @@ p.textplengkung{
   margin-top: 10%;
 }
 
-.boxakomodasi .textakomodasi p{
+p.gambar2{
   color: black;
   font-family: "Raleway3";
   text-align: center;
@@ -282,12 +301,12 @@ p.textplengkung{
   margin-top: -5%;
 }
 
-.boxakomodasi img{
+img.gambar2{
   margin-top: 10%;
   margin-left: 29%;
 }
 
-.boxkebudayaan{
+div.boxkebudayaan{
   width: 250px;
   height: 400px;
   left: 150px;
@@ -299,7 +318,7 @@ p.textplengkung{
   margin-top: 7%;
 }
 
-.boxkebudayaan .textkebudayaan h4{
+h4.gambar3{
   color: black;
   font-family: "Raleway2";
   text-align: center;
@@ -307,7 +326,7 @@ p.textplengkung{
   margin-top: 10%;
 }
 
-.boxkebudayaan .textkebudayaan p{
+p.gambar3{
   color: black;
   font-family: "Raleway3";
   text-align: center;
@@ -315,12 +334,12 @@ p.textplengkung{
   margin-top: -5%;
 }
 
-.boxkebudayaan img{
+img.gambar3{
   margin-top: 10%;
   margin-left: 29%;
 }
 
-.boxbiaya{
+div.boxbiaya{
   width: 250px;
   height: 400px;
   left: 200px;
@@ -332,7 +351,7 @@ p.textplengkung{
   margin-top: 7%;
 }
 
-.boxbiaya .textbiaya h4{
+h4.gambar4{
   color: black;
   font-family: "Raleway2";
   text-align: center;
@@ -340,7 +359,7 @@ p.textplengkung{
   margin-top: 10%;
 }
 
-.boxbiaya .textbiaya p{
+p.gambar4{
   color: black;
   font-family: "Raleway3";
   text-align: center;
@@ -348,7 +367,7 @@ p.textplengkung{
   margin-top: -5%;
 }
 
-.boxbiaya img{
+img.gambar4{
   margin-top: 10%;
   margin-left: 29%;
 }
@@ -634,7 +653,45 @@ p.textplengkung{
   margin-left: 70%;
 }
 
+p.daftar{
+  color: white;
+  font-family: "Raleway2";
+  border-style: solid;
+  width: 10%;
+  text-align: center;
+  margin-left: 37%;
+  margin-top: -17.5%;
+  padding: 1.5%;
+  position: absolute;
 }
-@media screen and (max-width: 768px){
+
+p.masuk{
+  color: white;
+  font-family: "Raleway2";
+  border-style: solid;
+  width: 10%;
+  text-align: center;
+  margin-left: 50.3%;
+  margin-top: -17.5%;
+  padding: 1.5%;
+  position: absolute;
+}
 
 }
+@media screen and (max-width: 720px){
+  img.headerKiri {
+    width: 20px;
+    height : 10px;
+    margin-top:5%;
+    margin-left: 1%;
+  }
+
+
+  img.headerKanan{
+    float: none;
+    margin-top: -53%;
+    margin-left: 92%;
+    width: 1%;
+    height: 1%;
+    position: absolute;
+  }
