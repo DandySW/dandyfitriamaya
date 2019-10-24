@@ -221,6 +221,42 @@ p.textsaran3baluran{
   font-size:1.5vw;
   text-indent: inherit;
 }
+p.textsaran1watudodol {
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 250%;
+  left :5%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran2watudodol{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 250%;
+  left :35%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran3watudodol{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 250%;
+  left :65%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
 p.textsaran1 {
   color: white;
   font-family: "Raleway";
@@ -228,7 +264,7 @@ p.textsaran1 {
   float: left;
   position: absolute;
   width: 25%;
-  top: 215%;
+  top: 220%;
   left :5%;
   font-size:1.5vw;
   text-indent: inherit;
@@ -240,7 +276,7 @@ p.textsaran2{
   float: left;
   position: absolute;
   width: 25%;
-  top: 215%;
+  top: 220%;
   left :35%;
   font-size:1.5vw;
   text-indent: inherit;
@@ -252,7 +288,7 @@ p.textsaran3{
   float: left;
   position: absolute;
   width: 25%;
-  top: 215%;
+  top: 220%;
   left :65%;
   font-size:1.5vw;
   text-indent: inherit;
