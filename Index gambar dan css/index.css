@@ -30,7 +30,6 @@ img.headerKiri{
   position: absolute;
 }
 
-
 img.headerKanan{
   float: right;
   margin-top: -53%;
@@ -40,7 +39,6 @@ img.headerKanan{
   position: absolute;
 }
 
-
 p.sunrise{
   color: white;
   font-family: "Raleway1";
@@ -48,11 +46,9 @@ p.sunrise{
   margin-top: -45%;
   position: absolute;
   margin-left: 25%;
-
 }
 
 p.explore{
-  text-align: center;
   color: white;
   font-family: "Raleway2";
   font-size: 2vw;
@@ -99,7 +95,6 @@ p.textbaluran{
   margin-top: 3%;
   margin-left: 62px;
   width: 180px;
-
 }
 
 img.bangsring {
@@ -581,76 +576,15 @@ img.gambar4{
   margin-top: -6.5%;
 }
 
-.boxgaris {
+div.boxgaris {
   width: 5px;
   height: 350px;
   background-color: black;
   position: absolute;
   float: left;
   margin-left: 25%;
-  margin-top: -11.5%;
+  margin-top: -24.3%;
   background-color: #9B9B9B;
-}
-
-.informasi{
-  font-family: "Raleway1";
-  font-size: 170%;
-  color: white;
-  margin-top: -23%;
-  margin-left: -18%;
-  text-align: center;
-}
-
-.bawahsatu {
-  font-family: "Raleway3";
-  font-size: 110%;
-  color: white;
-  margin-top: 3%;
-  margin-left: -21%;
-  text-align: center;
-}
-
-.customer{
-  font-family: "Raleway1";
-  font-size: 170%;
-  color: white;
-  margin-top: -17.4%;
-  margin-left: 24%;
-  text-align: center;
-}
-
-.bawahdua {
-  font-family: "Raleway3";
-  font-size: 110%;
-  color: white;
-  margin-top: 3%;
-  margin-left: 22%;
-  text-align: center;
-}
-
-.question{
-  font-family: "Raleway1";
-  font-size: 170%;
-  color: white;
-  margin-top: -13%;
-  margin-left: 70%;
-  text-align: center;
-}
-
-.bawahtiga {
-  font-family: "Raleway3";
-  font-size: 110%;
-  color: white;
-  margin-top: 2.9%;
-  margin-left:  67%;
-  text-align: center;
-}
-
-.gambar {
-  width: 20%;
-  height: 20%;
-  margin-top: -14%;
-  margin-left: 70%;
 }
 
 p.daftar{
@@ -660,7 +594,7 @@ p.daftar{
   width: 10%;
   text-align: center;
   margin-left: 37%;
-  margin-top: -17.5%;
+  margin-top: -30.5%;
   padding: 1.5%;
   position: absolute;
 }
@@ -672,30 +606,68 @@ p.masuk{
   width: 10%;
   text-align: center;
   margin-left: 50.3%;
-  margin-top: -17.5%;
+  margin-top: -30.5%;
   padding: 1.5%;
   position: absolute;
 }
 
+p.bawah1{
+  font-family: "Raleway1";
+  color: white;
+  font-size: 170%;
+  margin-top: -23%;
+  margin-left: -18%;
+  text-align: center;
 }
-@media screen and (max-width: 720px){
-  img.headerKiri {
-    width: 20px;
-    height : 10px;
-    margin-top:5%;
-    margin-left: 1%;
-  }
 
-  img.headerKanan{
-    float: none;
-    margin-top: -53%;
-    margin-left: 92%;
-    width: 1%;
-    height: 1%;
-    position: absolute;
-  }
+.bawahsatu{
+  font-family: "Raleway3";
+  font-size: 110%;
+  color: white;
+  margin-top: 3%;
+  margin-left: -21%;
+  text-align: center;
+}
 
-  img.background{
-    width: 300%;
-    height: 50%;
-  }
+p.bawah2{
+  font-family: "Raleway1";
+  color: white;
+  font-size: 170%;
+  margin-top: -11.3%;
+  margin-left: 30%;
+  text-align: center;
+}
+
+.bawahdua{
+  font-family: "Raleway3";
+  font-size: 110%;
+  color: white;
+  margin-top: 3%;
+  margin-left: 27%;
+  text-align: center;
+}
+
+p.bawah3{
+  font-family: "Raleway1";
+  color: white;
+  font-size: 170%;
+  margin-top: -16%;
+  margin-left: 75%;
+  text-align: center;
+}
+
+.gambarbawah3 {
+  width: 20%;
+  height: 20%;
+  margin-top: -1%;
+  margin-left: 73%;
+}
+
+.bawahtiga {
+  font-family: "Raleway3";
+  font-size: 110%;
+  color: white;
+  margin-top: -6%;
+  margin-left:  72%;
+  text-align: center;
+}
