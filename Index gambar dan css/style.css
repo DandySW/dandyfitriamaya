@@ -30,7 +30,7 @@ body{
 }
 #header-menu li{
   float: right;
-  padding: 15px 30px;
+  padding: 16px 50px;
   font-size: 22px;
   font-family: "Raleway1"
 }
@@ -47,6 +47,10 @@ body{
   margin-top:0%;
   margin-left: 1%;
   position: fixed;
+}
+#header-menu li:hover {
+  background:white;
+  color: black;
 }
 img.headerGambar{
   margin-top: 0%;
