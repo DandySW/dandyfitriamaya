@@ -561,6 +561,19 @@ input.post-btn{
   background-color: #f9b282;
   border-style: none;
 }
+ol.TipsWisata{
+  color: black;
+  font-style: Raleway1;
+  font-size: 2vw;
+  margin-left: 8%;
+}
+p.TipsWisata{
+  text-align: justify;
+  text-align: left;
+  font-size: 1.5vw;
+  font-family: Raleway1;
+  margin-left: -2%;
+}
 
 @media screen (max width: 800px){
   #header-menu{
