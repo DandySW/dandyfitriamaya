@@ -380,7 +380,7 @@ img.gambar4{
   margin-left: 29%;
 }
 
-.artikel{
+#artikel{
   margin-top: 60px;
   margin-left: 50px;
   font-size: 40px;
@@ -580,6 +580,7 @@ img.gambar4{
   height: 25%;
   margin-left: 9.5%;
   margin-top: -6.4%;
+  position: relative;
 }
 
 .instagram {
@@ -587,9 +588,10 @@ img.gambar4{
   height: 25%;
   margin-left: 14.5%;
   margin-top: -6.5%;
+  position: relative;
 }
 
-div.boxgaris {
+#boxgaris {
   width: 5px;
   height: 350px;
   background-color: black;
