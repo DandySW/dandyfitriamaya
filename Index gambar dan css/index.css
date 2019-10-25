@@ -26,7 +26,7 @@ img.background{
   list-style-type: none;
   padding:0px;
   list-style-type: none;
-  background-color: rgba(0,0,0,0);
+  ..background-color: rgba(0,0,0,0);
   position: absolute;
   margin-top: -54%;
   margin-left: 45%;
