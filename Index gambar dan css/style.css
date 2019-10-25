@@ -308,7 +308,7 @@ img.saran1baluran{
   width: 26%;
   height: 33%;
   margin-left: 10%;
-  margin-top: -20%;
+  margin-top: 1%;
 }
 img.saran2baluran{
   position: absolute;
@@ -316,7 +316,7 @@ img.saran2baluran{
   width: 26%;
   height: 33%;
   margin-left: 40%;
-  margin-top: -20%;
+  margin-top: 1%;
 }
 img.saran3baluran{
   position: absolute;
@@ -324,7 +324,7 @@ img.saran3baluran{
   width: 26%;
   height: 33%;
   margin-left: 70%;
-  margin-top: -20%;
+  margin-top: 1%;
 }
 p.textsaran1baluran {
   color: white;
@@ -441,7 +441,7 @@ p.textsaran1artikel {
   float: left;
   position: absolute;
   width: 25%;
-  top: 200%;
+  top: 190%;
   left :5%;
   font-size:1.5vw;
   text-indent: inherit;
@@ -453,7 +453,7 @@ p.textsaran2artikel{
   float: left;
   position: absolute;
   width: 25%;
-  top: 200%;
+  top: 190%;
   left :35%;
   font-size:1.5vw;
   text-indent: inherit;
@@ -465,7 +465,187 @@ p.textsaran3artikel{
   float: left;
   position: absolute;
   width: 25%;
-  top: 200%;
+  top: 190%;
+  left :65%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran1padang {
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 235%;
+  left :5%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran2padang{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 235%;
+  left :35%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran3padang{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 235%;
+  left :65%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran1Tipswisata {
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 355%;
+  left :5%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran2Tipswisata{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 355%;
+  left :35%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran3Tipswisata{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 355%;
+  left :65%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran1plengkung {
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 245%;
+  left :5%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran2plengkung{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 245%;
+  left :35%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran3plengkung{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 245%;
+  left :65%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran1Wisatahemat {
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 300%;
+  left :5%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran2Wisatahemat{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 300%;
+  left :35%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran3Wisatahemat{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 300%;
+  left :65%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran1Wisatahits{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 340%;
+  left :5%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran2Wisatahits{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 340%;
+  left :35%;
+  font-size:1.5vw;
+  text-indent: inherit;
+}
+p.textsaran3Wisatahits{
+  color: white;
+  font-family: "Raleway";
+  text-align:left;
+  float: left;
+  position: absolute;
+  width: 25%;
+  top: 340%;
   left :65%;
   font-size:1.5vw;
   text-indent: inherit;
