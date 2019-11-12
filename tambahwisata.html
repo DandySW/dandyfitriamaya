@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>KOTA OSING - The Sunrise of Java</title>
-    <script src="Index gambar dan css/jquery.js">
-    </script>
     <link rel="icon" type="image/png" href="Index gambar dan css/Udeng-black.png">
     <link rel="stylesheet" href="Index gambar dan css/css.css">
   </head>
@@ -35,28 +33,36 @@
             <li><input class= "post-btn" type="reset" name="Batal" value="BATAL"></li>
           </ul>
       </form>
-      <script type="text/javascript">
-               function readURL(input) {
-           if (input.files && input.files[0]) {
-            var reader = new FileReader();
-            reader.onload = function (e) {
-               if(e!=""){
-                 $('#preview').show();
-                 $('#preview').attr('src', e.target.result);
-               }else{
-                 $('#preview').show();
-               }
-            }
-            reader.readAsDataURL(input.files[0]);
-           }
-           }
-
-           $("#gambar_pro").change(function(){
-            readURL(this);
-           });
-         </script>
-
   </body>
-  <style>
-  </style>
+  <script src="jQuery.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#imgUpload").change(function () {
+            var File = this.files;
+            if (File && File[0]) {
+                ReadImage(File[0]);
+            }
+        })
+    })
+
+    var ReadImage = function (file) {
+        var reader = new FileReader;
+        var image = new Image;
+
+        reader.readAsDataURL(file);
+        reader.onload = function (_file) {
+            image.src = _file.target.result;
+            image.onload = function () {
+                var height = this.height;
+                var width = this.width;
+                var type = file.type;
+                var size = ~~(file.size / 1024) + "KB";
+
+                $("#targetImg").attr('src', _file.target.result);
+                $("#description").text("Size:" + size + ", " + height + " X " + width + ", " + type + "");
+                $("#imgPreview").show();
+            }
+        }
+    }
+</script>
 </html>
