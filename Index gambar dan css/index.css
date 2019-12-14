@@ -1,689 +1,259 @@
-@font-face {
-  font-family: "Raleway1";
-  src: url("Raleway-SemiBold.ttf")
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
+html{
+  scroll-behavior: smooth;
+}
+body,section{
+    margin: 0;
+    padding: 0;
+}
+body, input, select, textarea {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.65;
 }
 
-@font-face {
-  font-family: "Raleway2";
-  src: url("Raleway-Light.ttf")
+/* navbar */
+/* Style the top navigation bar */
+.topnav {
+overflow: hidden;
+background-color: #333;
 }
 
-@font-face {
-  font-family: "Raleway3";
-  src: url("Raleway-Regular.ttf")
+/* Style the topnav links */
+.topnav a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+text-indent: -1px;
 }
 
-img.background{
-  width: 101.6%;
-  height: 50%;
-  position: relative;
-  margin-left: -1%;
-  margin-top: -1%;
-  margin-right: -1%;
+/* Change color on hover */
+.topnav a:hover {
+background-color: #ddd;
+color: black;
 }
 
-#header-menu ul{
-  list-style-type: none;
-  padding:0px;
-  list-style-type: none;
-  ..background-color: rgba(0,0,0,0);
-  position: absolute;
-  margin-top: -54%;
-  margin-left: 45%;
-}
-#header-menu li{
-  float: right;
-  padding: 5px 30px;
-  font-size: 22px;
-  font-family: "Raleway1"
-}
-#header-menu ul li a{
-  display: block;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  padding: 15px;
-}
-#header-menu img{
-  width: 23%;
-  height : 13%;
-  margin-top:-56%;
-  margin-left: 1%;
-  position: absolute;
+
+.topnav .search-container {
+float: right;
 }
 
-p.sunrise{
-  color: white;
-  font-family: "Raleway1";
-  font-size: 5vw;
-  margin-top: -45%;
-  position: absolute;
-  margin-left: 25%;
+.topnav input[type=text] {
+padding: 6px;
+margin-top: 8px;
+font-size: 17px;
+border: none;
 }
 
-p.explore{
-  color: white;
-  font-family: "Raleway2";
-  font-size: 2vw;
-  margin-top: -32%;
-  position: absolute;
-  margin-left: 35%;
+.topnav .search-container button {
+float: right;
+padding: 6px 10px;
+margin-top: 8px;
+margin-right: 16px;
+background: #ddd;
+font-size: 17px;
+border: none;
+cursor: pointer;
 }
 
-p.letstart{
-  color: white;
-  font-family: "Raleway2";
-  border-style: solid;
-  border-radius: 100px;
-  width: 10%;
-  text-align: center;
-  margin-left: 42%;
-  margin-top: -20%;
-  padding: 1.5%;
-  position: absolute;
+.topnav .search-container button:hover {
+background: #ccc;
 }
 
-p.wisata{
-  text-align: center;
-  color: black;
-  font-family: "Raleway1";
-  font-size: 3vw ;
-  margin-top: 4%;
+
+.judul{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../Index gambar dan css/Background.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.judul h1{
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+.judul .judul-btn{
+    border: 3px solid white;
+    width: 200px;
+    display: block;
+    padding: 1em;
+    margin: 20px auto;
+
+}
+.judul a.judul-btn{
+    text-decoration: none;
+    color: white;
+}
+.judul a:hover{
+    border-color: grey;
+    color: rgb(206, 27, 40);
+    border-radius: 20px;
+    transition: 0.4s;
+    background-color: white;
+    border-color: white;
 }
 
-img.baluran {
-  left: 10px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
+/**Card**/
+.separator,#blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sep-inner h1{
+    color: black;
+}
+.card-outer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-outer > div.card{
+    margin: 10px;
+}
+.blog-card{
+    text-align: center;
+    width: 25vw;
+    height: 250px;
+    margin: 50px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.blog-card > img{
+    width: 100%;
+    height: 100%;
 }
 
-p.textbaluran{
-  color: black;
-  font-family: "Raleway3";
-  position: absolute;
-  font-size: 130%;
-  text-align: center;
-  margin-top: 3%;
-  margin-left: 62px;
-  width: 180px;
-}
 
-img.bangsring {
-  left: 20px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-}
 
-p.textbangsring{
-  color: black;
-  font-family: "Raleway3";
-  position: absolute;
-  font-size: 130%;
-  text-align: center;
-  margin-top: 3%;
-  margin-left: 30.5%;
-  width: 180px;
-}
 
-img.ijen {
-  left: 30px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-}
-
-p.textijen {
-  color: black;
-  font-family: "Raleway3";
-  position: absolute;
-  font-size:130%;
-  text-align: center;
-  margin-top: 3%;
-  margin-left: 55.5%;
-  width: 180px;
-}
-
-img.pulaumerah {
-  left: 40px;
-  right: 200px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-}
-
-p.textpulaumerah {
-  color: black;
-  font-family: "Raleway3";
-  position: absolute;
-  font-size:130%;
-  text-align: center;
-  margin-top: 3%;
-  margin-left: 80%;
-  width: 180px;
-}
-
-img.sadengan {
-  left: 10px;
-  right: 200px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-}
-
-p.textsadengan {
-  color: black;
-  font-family: "Raleway3";
-  position: absolute;
-  font-size:130%;
-  text-align: center;
-  margin-top: 27.5%;
-  margin-left: 5.5%;
-  width: 180px;
-}
-
-img.tabuhan {
-  left: 20px;
-  right: 200px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-}
-
-p.texttabuhan{
-  color: black;
-  font-family: "Raleway3";
-  position: absolute;
-  font-size:130%;
-  text-align: center;
-  margin-top: 27.5%;
-  margin-left: 30%;
-  width: 180px;
-}
-
-img.watudodol {
-  left: 30px;
-  right: 200px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-}
-
-p.textwatudodol{
-  color: black;
-  font-family: "Raleway3";
-  position: absolute;
-  font-size:130%;
-  text-align: center;
-  margin-top: 27.5%;
-  margin-left: 55.3%;
-  width: 180px;
-}
-
-img.plengkung {
-  left: 40px;
-  right: 200px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-}
-
-p.textplengkung{
-  color: black;
-  font-family: "Raleway3";
-  position: absolute;
-  font-size:130%;
-  text-align: center;
-  margin-top: 27.5%;
-  margin-left: 81%;
-  width: 180px;
-}
-
-div.boxperjalanan{
-  width: 250px;
-  height: 400px;
-  left: 50px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-  background-color: #DBDBDB;
-  margin-top: 7%;
-}
-
-h4.gambar1{
-  color: black;
-  font-family: "Raleway2";
-  text-align: center;
-  font-size: 30px;
-  margin-top: 10%;
-}
-
-p.gambar1{
-  color: black;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 23px;
-  margin-top: -5%;
-}
-
-img.gambar1{
-  margin-top: 10%;
-  margin-left: 27%;
-}
-
-div.boxakomodasi{
-  width: 250px;
-  height: 400px;
-  left: 100px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-  background-color: #DBDBDB;
-  margin-top: 7%;
-}
-
-h4.gambar2{
-  color: black;
-  font-family: "Raleway2";
-  text-align: center;
-  font-size: 30px;
-  margin-top: 10%;
-}
-
-p.gambar2{
-  color: black;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 23px;
-  margin-top: -5%;
-}
-
-img.gambar2{
-  margin-top: 10%;
-  margin-left: 29%;
-}
-
-div.boxkebudayaan{
-  width: 250px;
-  height: 400px;
-  left: 150px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-  background-color: #DBDBDB;
-  margin-top: 7%;
-}
-
-h4.gambar3{
-  color: black;
-  font-family: "Raleway2";
-  text-align: center;
-  font-size: 30px;
-  margin-top: 10%;
-}
-
-p.gambar3{
-  color: black;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 23px;
-  margin-top: -5%;
-}
-
-img.gambar3{
-  margin-top: 10%;
-  margin-left: 29%;
-}
-
-div.boxbiaya{
-  width: 250px;
-  height: 400px;
-  left: 200px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-right: 8px;
-  background-color: #DBDBDB;
-  margin-top: 7%;
-}
-
-h4.gambar4{
-  color: black;
-  font-family: "Raleway2";
-  text-align: center;
-  font-size: 30px;
-  margin-top: 10%;
-}
-
-p.gambar4{
-  color: black;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 23px;
-  margin-top: -5%;
-}
-
-img.gambar4{
-  margin-top: 10%;
-  margin-left: 29%;
-}
-
-.artikel{
-  margin-top: 60px;
-  margin-left: 50px;
-  font-size: 40px;
-  font-family: "Raleway3";
-  float: left;
-}
-
-.boxasal{
-  width: 270px;
-  height: 400px;
-  left: 50px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-left: -0.5%;
-  background-color: #DBDBDB;
-  margin-top: 10%;
-}
-
-.boxasal img{
-  margin-top: -14px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.boxasal .textasal h4{
-  color: black;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 28px;
-  margin-top: 5%;
-}
-
-.boxasal .textasal p{
-  color: #A5A5A5;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 23px;
-  margin-top: 20%;
-}
-
-.boxtips{
-  width: 270px;
-  height: 400px;
-  left: 70px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-left:  1%;
-  background-color: #DBDBDB;
-  margin-top: 10%;
-}
-
-.boxtips img{
-  margin-top: -14px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.boxtips .texttips h4{
-  color: black;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 28px;
-  margin-top: 5%;
-}
-
-.boxtips .texttips p{
-  color: #A5A5A5;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 23px ;
-  margin-top: 20%;
-}
-
-.boxholiday{
-  width: 270px;
-  height: 400px;
-  left: 90px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-left: 1%;
-  background-color: #DBDBDB;
-  margin-top: 10%;
-}
-
-.boxholiday img{
-  margin-top: -14px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.boxholiday .textholiday h4{
-  color: black;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 28px;
-  margin-top: 5%;
-}
-
-.boxholiday .textholiday p{
-  color: #A5A5A5;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 23px ;
-  margin-top: -6%;
-}
-
-.boxwisata{
-  width: 270px;
-  height: 400px;
-  left: 110px;
-  float: left;
-  position: relative;
-  padding: 15px 15px 15px 2px;
-  margin-left: 1%;
-  background-color: #DBDBDB;
-  margin-top: 10%;
-}
-
-.boxwisata img{
-  margin-top: -14px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 285px;
-  height: 230px;
-}
-
-.boxwisata .textwisata h4{
-  color: black;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 28px;
-  margin-top: 5%;
-}
-
-.boxwisata .textwisata p{
-  color: #A5A5A5;
-  font-family: "Raleway3";
-  text-align: center;
-  font-size: 23px ;
-  margin-top: -6%;
-}
-
-.boxhijau{
-  width: 1350px;
-  height : 230px;
+/** PAKET WISATA **/
+#paket{
+  margin-top: 10vh;
+  height: 70vh;
+  width: 100vw;
   background-color: #50CCB3;
-  float: left;
-  margin-left: -8px;
-  margin-top: 90px;
 }
 
-.boxhijau .textboxhijau h2{
+.left-section{
+  width: 40%;
+  height: 100%;
+  background-color: rgb(206, 27, 40);
   color: white;
-  text-align: center;
-  font-size: 50px;
-  font-family: "Raleway1";
-  margin-top: 30px;
-
-}
-
-.boxhijau .textboxhijau p{
-  color: white;
-  text-align: center;
-  font-size: 20px;
-  font-family: "Raleway2";
-  margin-top: -20px;
-}
-
-.boxabu{
-  width: 1350px;
-  height : 350px;
-  background-color: #878787;
   float: left;
-  margin-left: -8px;
+}
+.left-section h1{
+  font-size: 38px;
+  margin: 40px;
+}
+img.box{
+  width: 40%;
+  height: 40%;
+}
+.paket-card{
+  background-color: white;
+  margin: 33px;
+  width: 20vw;
+  height: 60vh;
+  float: left;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  text-align: center;
 }
 
-.boxabu img{
-  width: 15%;
+
+
+
+
+.left-section{
+  width: 40%;
+  height: 100%;
+  background-color: rgb(206, 27, 40);
+  color: white;
+  float: left;
+}
+.left-section h1{
+  font-size: 38px;
+  margin: 40px;
+}
+.saran-card{
+  background-color: white;
+  margin: 50px;
+  width: 20vw;
+  height: 50vh;
+  float: left;
+  margin-left: 110px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
+  text-align: center;
+}
+img.saran{
+  width: 100%;
   height: 50%;
-  margin-left: 5%;
-  margin-top: 5%;
 }
 
-.fb {
-  width: 25%;
-  height: 25%;
-  margin-top: -0.5%;
-  margin-left: 4.5%;
-  position: relative;
+#praFooter{
+  margin-top:35%;
+  height: 10vh;
+  width: 100vw;
+  background-color: #333;
 }
-
-.twitter {
-  width: 25%;
-  height: 25%;
-  margin-left: 9.5%;
-  margin-top: -6.4%;
+.contact{
+  float: right;
+  margin-right: 100px;
 }
-
-.instagram {
-  width: 25%;
-  height: 25%;
-  margin-left: 14.5%;
-  margin-top: -6.5%;
-}
-
-div.boxgaris {
-  width: 5px;
-  height: 350px;
-  background-color: black;
-  position: absolute;
-  float: left;
-  margin-left: 25%;
-  margin-top: -24.3%;
-  background-color: #9B9B9B;
-}
-
-p.daftar{
+/**FOOTER**/
+footer{
+  background-color: #333;
   color: white;
-  font-family: "Raleway2";
-  border-style: solid;
-  width: 10%;
-  text-align: center;
-  margin-left: 37%;
-  margin-top: -30.5%;
-  padding: 1.5%;
-  position: absolute;
+  padding: 10px;
+  margin-top:33%;
 }
 
-p.masuk{
-  color: white;
-  font-family: "Raleway2";
-  border-style: solid;
-  width: 10%;
-  text-align: center;
-  margin-left: 50.3%;
-  margin-top: -30.5%;
-  padding: 1.5%;
-  position: absolute;
+
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
 
-p.bawah1{
-  font-family: "Raleway1";
-  color: white;
-  font-size: 170%;
-  margin-top: -23%;
-  margin-left: -18%;
-  text-align: center;
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 90%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
 }
 
-.bawahsatu{
-  font-family: "Raleway3";
-  font-size: 110%;
-  color: white;
-  margin-top: 3%;
-  margin-left: -21%;
-  text-align: center;
-}
-
-p.bawah2{
-  font-family: "Raleway1";
-  color: white;
-  font-size: 170%;
-  margin-top: -11.3%;
-  margin-left: 30%;
-  text-align: center;
-}
-
-.bawahdua{
-  font-family: "Raleway3";
-  font-size: 110%;
-  color: white;
-  margin-top: 3%;
-  margin-left: 27%;
-  text-align: center;
-}
-
-p.bawah3{
-  font-family: "Raleway1";
-  color: white;
-  font-size: 170%;
-  margin-top: -16%;
-  margin-left: 75%;
-  text-align: center;
-}
-
-.gambarbawah3 {
-  width: 20%;
-  height: 20%;
-  margin-top: -1%;
-  margin-left: 73%;
-}
-
-.bawahtiga {
-  font-family: "Raleway3";
-  font-size: 110%;
-  color: white;
-  margin-top: -6%;
-  margin-left:  72%;
-  text-align: center;
-}
-a{
-  text-decoration: none;
-}
+  /* end navbar */
