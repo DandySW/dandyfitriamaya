@@ -418,7 +418,7 @@ input.tambahwisata:hover{
       width: 20vw;
       height: 200px;
       margin: 5px;
-      margin-left: 30px;
+      margin-left: 50px;
       margin-bottom: -40px;
       border-top-right-radius: 5px;
       border-bottom-left-radius: 5px;
@@ -446,17 +446,17 @@ input.tambahwisata:hover{
     margin: 25px;
     padding: 20px;
     width: 20vw;
-    height: 20vh;
-    margin-left: 40px;
+    height: 28vh;
+    margin-left: 60px;
     font-size: 2vw;
     text-align: center;
   }
   .saran-card{
     margin: 5px;
     width: 20vw;
-    height: 27vh;
+    height: 37vh;
     float: left;
-    margin-left: 40px;
+    margin-left: 50px;
   }
   .saran-card h1{
     margin: 2px;
@@ -464,6 +464,7 @@ input.tambahwisata:hover{
   }
   .saran-card p{
     font-size: 1.5vw;
+    margin-top: -2px;
   }
   a img.saran{
     width: 100%;
@@ -477,6 +478,7 @@ input.tambahwisata:hover{
   margin-top: 5vh;
   margin-bottom: 5vh;
   width: 101vw;
+  height: 90vh;
   }
 }
 
