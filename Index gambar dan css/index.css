@@ -197,7 +197,7 @@ img.box{
   box-shadow: 0px 13px 15px 0px rgba(0,0,0,0.75);
   text-align: center;
 }
-img.saran{
+img.saran a{
   width: 100%;
   height: 50%;
 }
@@ -261,7 +261,7 @@ footer{
 }
 #saranwisata{
   margin-top: 10vh;
-  margin-bottom: -30%;;
+  margin-bottom: -20%;;
   height: 70vh;
   width: 100vw;
   background-color: #50CCB3;
@@ -269,10 +269,21 @@ footer{
 p.saran{
 text-align: center;
 font-family:Raleway;
-font-size: 2vw;
+font-size: 2.5vw;
 color:#50CCB3 ;
 margin: 10px;
 padding-bottom: 2px;
+}
+.Ijen1{
+  margin-left: 80px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.Ijen1 li{
+  font-size: 1.5vw;
+  text-align: left;
+  color: black;
+  font-family: Helvetica;
 }
 p.ijen{
   text-indent:5%;
@@ -284,7 +295,43 @@ p.ijen{
   margin-bottom: 50px;
   font-family: Raleway;
 }
-
+.artikel img{
+  width: 100vw;
+  height: 70vh;
+  position: relative;
+}
+.artikel h1{
+  color: 	black;
+  text-align: left;
+  font-size: 3.5vw;
+  font-family: Raleway;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+.artikel p{
+  color: 	#808080;
+  text-align: left;
+  font-size: 1.5vw;
+  font-family: Raleway;
+  margin-left: 40px;
+  margin-top: 0px;
+}
+input.tambahwisata{
+  width: 11vw;
+  height: 7vh;
+  margin: 80px;
+  background-color: #878787;
+  font-family: Raleway;
+  font-size: 100%;
+  color: white;
+  border-style: solid;
+  border-radius: 100px;
+  border:none;
+}
+input.tambahwisata:hover{
+  background:#50CCB3;
+}
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
