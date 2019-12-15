@@ -409,6 +409,75 @@ input.tambahwisata:hover{
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+  .blog-card > a img {
+      width: 100%;
+      height: 50%;
+  }
+  .blog-card{
+      text-align: center;
+      width: 20vw;
+      height: 200px;
+      margin: 5px;
+      margin-left: 30px;
+      margin-bottom: -40px;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+  }
+  .sep-inner h1{
+      color: black;
+      font-size: 5vw;
+  }
+  .blog-card h3{
+    font-size: 3vw;
+  }
+  .left-section{
+    width: 40%;
+    height: 100%;
+  }
+  .left-section h1{
+    font-size: 38px;
+    margin: 40px;
+  }
+  img.box{
+    width: 30%;
+    height: 20%;
+  }
+  .paket-card{
+    margin: 25px;
+    padding: 20px;
+    width: 20vw;
+    height: 20vh;
+    margin-left: 40px;
+    font-size: 2vw;
+    text-align: center;
+  }
+  .saran-card{
+    margin: 5px;
+    width: 20vw;
+    height: 27vh;
+    float: left;
+    margin-left: 40px;
+  }
+  .saran-card h1{
+    margin: 2px;
+    font-size: 2.5vw;
+  }
+  .saran-card p{
+    font-size: 1.5vw;
+  }
+  a img.saran{
+    width: 100%;
+    height: 40%;
+  }
+  footer{
+    margin-top:55%;
+    font-size: 2.5vw;
+  }
+  #paket{
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  width: 101vw;
+  }
 }
 
   /* end navbar */
