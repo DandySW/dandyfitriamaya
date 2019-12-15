@@ -409,7 +409,7 @@ input.tambahwisata:hover{
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
-  .blog-card > a img {
+  /* .blog-card > a img {
       width: 100%;
       height: 50%;
   }
@@ -479,7 +479,7 @@ input.tambahwisata:hover{
   margin-bottom: 5vh;
   width: 101vw;
   height: 90vh;
-  }
+  } */
 }
 
   /* end navbar */
