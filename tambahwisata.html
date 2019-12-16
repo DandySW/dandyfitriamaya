@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>KOTA OSING - The Sunrise of Java</title>
-    <link rel="icon" type="image/png" href="Index gambar dan css/Udeng-black.png">
-    <link rel="stylesheet" href="Index gambar dan css/css.css">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>KOTA OSING - The Sunrise of Java</title>
+      <link rel="icon" type="image/png" href="Index gambar dan css/Udeng-black.png">
+    <link rel="stylesheet" href="Index gambar dan css/index.css">
   </head>
-  <body>
-    <style media="screen">
-      body{
-        background-color: #50CCB3;;
-        background-size:cover;
-        background-repeat:no-repeat;
-        background-attachment: fixed;
-      }
-    </style>
-    <div class="headerBox1">
-          <img class="headerKiri" src="Index gambar dan css//Logo.png">
-          <img class="headerKanan" src="Index gambar dan css//header-kanan.png">
+  <body class="tambahwisata">
+    <!-- navbar -->
+    <div class="topnav">
+        <a href="index.html">KOTA OSING</a>
+        <a style="float:right" href="tentang.html">Tentang</a>
+        <a style="float:right" href="register.html">Daftar</a>
+        <a style="float:right" href="login.html">Masuk</a>
+
+        <div class="search-container">
+          <form action="/more.html">
+              <input type="text" placeholder="Search.." name="search">
+          </form>
+        </div>
     </div>
     <form class="register" align="center">
-      <h3>Tambahkan Artikel Terbaru</h3>
+      <h3 class="register">Tambahkan Artikel Terbaru</h3>
       <div class="formcreate">
         <input type="text" placeholder="Nama Wisata" required><br><br>
         <input type="text" placeholder="Alamat Wisata" required><br><br>
@@ -29,40 +33,9 @@
         <p class="textarea">Deskripsi Artikel :</p>
         <textarea name="deskripsi" rows="7" cols=26.5 required></textarea>
           <ul type="none">
-            <li><input class= "post-btn" type="submit" name="Simpan" value="SIMPAN"></li>
-            <li><input class= "post-btn" type="reset" name="Batal" value="BATAL"></li>
+            <li><a href="index.html"><input class= "post-btn" type="submit" name="Simpan" value="SIMPAN"></li></a>
+            <li><a href="tambahwisata.html"><input class= "post-btn" type="reset" name="Batal" value="BATAL"></li></a>
           </ul>
       </form>
   </body>
-  <script src="jQuery.js"></script>
-<script>
-    $(document).ready(function () {
-        $("#imgUpload").change(function () {
-            var File = this.files;
-            if (File && File[0]) {
-                ReadImage(File[0]);
-            }
-        })
-    })
-
-    var ReadImage = function (file) {
-        var reader = new FileReader;
-        var image = new Image;
-
-        reader.readAsDataURL(file);
-        reader.onload = function (_file) {
-            image.src = _file.target.result;
-            image.onload = function () {
-                var height = this.height;
-                var width = this.width;
-                var type = file.type;
-                var size = ~~(file.size / 1024) + "KB";
-
-                $("#targetImg").attr('src', _file.target.result);
-                $("#description").text("Size:" + size + ", " + height + " X " + width + ", " + type + "");
-                $("#imgPreview").show();
-            }
-        }
-    }
-</script>
 </html>
