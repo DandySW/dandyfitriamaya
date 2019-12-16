@@ -316,7 +316,7 @@ input.tambahwisata:hover{
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .topnav a {
     float: none;
     width: 100%;
@@ -394,7 +394,7 @@ input.tambahwisata:hover{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-height: 600px) {
   .topnav .search-container {
     float: none;
   }
@@ -409,6 +409,13 @@ input.tambahwisata:hover{
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
+  /* .card-outer{
+    height: 50%;
+  }
+  .card-outer img{
+    width: 30%;
+    height: 30%;
+  } */
 
 }
 
