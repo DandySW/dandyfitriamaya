@@ -359,10 +359,12 @@ textarea{
   margin-left:20%;
   text-align: center;
   height: 40%;
+  width: 65%;
   margin-bottom: 0px;
+  border-radius: 5%;
 }
 p.textarea{
-  margin-left: 0px;
+  margin-left: 35px;
   margin-top: -5%;
   margin-bottom: 0px;
   font-family: sans-serif;
@@ -378,6 +380,7 @@ a input.post-btn{
   margin-top: -15%;
   margin-bottom: 4%;
   border-style: none;
+  margin-left: 100px;
 }
 a:hover input.post-btn{
   background-color: #5c5f61;
@@ -391,6 +394,10 @@ h3.register{
 }
 body.tambahwisata{
   background-image:url("../Index gambar dan css/Background.jpg");
+  background-size: cover;
+}
+img#preview.upload{
+  margin-left:20%;
 }
 
 /* content-tentang */
@@ -545,13 +552,6 @@ footer.tentang{
   .topnav input[type=text] {
     border: 1px solid #ccc;
   }
-  /* .card-outer{
-    height: 50%;
-  }
-  .card-outer img{
-    width: 30%;
-    height: 30%;
-  } */
 
 }
 

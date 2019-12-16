@@ -1,41 +1,96 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KOTA OSING - The Sunrise of Java</title>
+  <link rel="icon" type="image/png" href="Index gambar dan css/Udeng-black.png">
+  <link rel="stylesheet" href="Index gambar dan css/index.css">
+  <script src="jquery-3.4.1.js"></script>
+</head>
+<body>
+  <body class="tambahwisata">
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>KOTA OSING - The Sunrise of Java</title>
       <link rel="icon" type="image/png" href="Index gambar dan css/Udeng-black.png">
-    <link rel="stylesheet" href="Index gambar dan css/index.css">
-  </head>
-  <body class="tambahwisata">
-    <!-- navbar -->
-    <div class="topnav">
-        <a href="index.html">KOTA OSING</a>
-        <a style="float:right" href="tentang.html">Tentang</a>
-        <a style="float:right" href="register.html">Daftar</a>
-        <a style="float:right" href="login.html">Masuk</a>
-
-        <div class="search-container">
-          <form action="/more.html">
-              <input type="text" placeholder="Search.." name="search">
-          </form>
-        </div>
-    </div>
-    <form class="register" align="center">
-      <h3 class="register">Tambahkan Artikel Terbaru</h3>
-      <div class="formcreate">
-        <input type="text" placeholder="Nama Wisata" required><br><br>
-        <input type="text" placeholder="Alamat Wisata" required><br><br>
-        <input type="file" name="upload_gambar" class="upload_gambar" required><br><br>
-        <!-- <input type="text" placeholder="Keterangan Lainnya"><br><br> -->
-        <p class="textarea">Deskripsi Artikel :</p>
-        <textarea name="deskripsi" rows="7" cols=26.5 required></textarea>
-          <ul type="none">
-            <li><a href="index.html"><input class= "post-btn" type="submit" name="Simpan" value="SIMPAN"></li></a>
-            <li><a href="tambahwisata.html"><input class= "post-btn" type="reset" name="Batal" value="BATAL"></li></a>
-          </ul>
+      <link rel="stylesheet" href="Index gambar dan css/index.css">
+      <script src="jquery-3.4.1.js"></script>
+    </head>
+    <body class="tambahwisata">
+      <!-- navbar -->
+      <div class="topnav">
+          <a href="index.html">KOTA OSING</a>
+          <a style="float:right" href="tentang.html">Tentang</a>
+          <a style="float:right" href="register.html">Daftar</a>
+          <a style="float:right" href="login.html">Masuk</a>
+          <div class="search-container">
+            <form action="/more.html">
+                <input type="text" placeholder="Search.." name="search">
+            </form>
+          </div>
+      </div>
+      <form class="register" align="center">
+        <h3 class="register">Tambahkan Artikel Terbaru</h3>
+        <div class="formcreate">
+          <div class="upload">
+                  <img class="upload"src="#" id="preview" style="width:250px;height:150px;margin: px auto;"><br><br>
+                  <input class="upload" type="file" id="img" accept="image/*" style="margin: px auto;"><br><br>
+                  <div id="info"></div>
+          </div>
+          <input type="text" placeholder="Nama Wisata" required><br><br>
+          <input type="text" placeholder="Alamat Wisata" required><br><br>
+          <!-- <input type="text" placeholder="Keterangan Lainnya"><br><br> -->
+          <p class="textarea">Deskripsi Artikel :</p>
+          <textarea name="deskripsi" rows="7" cols=26.5 required></textarea>
+            <ul type="none">
+              <li><a href="index.html"><input class= "post-btn" type="submit" name="Simpan" value="SIMPAN"></li></a>
+              <li><a href="tambahwisata.html"><input class= "post-btn" type="reset" name="Batal" value="BATAL"></li></a>
+            </ul>
       </form>
-  </body>
+
+</body>
+<script src="jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $.fn.uploadGambar = function () { //extending jquery
+                this.change(function(event) {
+                    if(this.files.length > 0){
+                        console.log(this.files[0]);
+                        var name = this.files[0].name;
+                        var size = this.files[0].size;
+                        var ukuran = "";
+                        if (size >= 1000000 ) { //MB
+                            size = Math.ceil(size/1000000);
+                            ukuran = size + "MB";
+                        }
+                        else if (size >= 1000) { //KB
+                            size = Math.ceil(size/1000);
+                            ukuran = size + "KB";
+                        }
+                        else if(size < 1000){
+                            ukuran = size + "Byte";
+                        }
+
+                        $("#info").html(`
+                            <p>Nama File : `+name+`</p>
+                            <p>Ukuran File : `+ukuran+`</p>
+                            `
+                        );
+
+                        if (this.files && this.files[0]) {
+                        var reader = new FileReader();
+                        reader.onload = function(e) {
+                            $('#preview').show();
+                            $('#preview').attr('src', e.target.result);
+                        }
+                        reader.readAsDataURL(this.files[0]);
+                        }
+                    }
+                });
+            }
+            $("#img").uploadGambar();
+    </script>
 </html>
