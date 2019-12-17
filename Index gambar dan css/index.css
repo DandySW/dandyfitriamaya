@@ -106,6 +106,9 @@ background: #ccc;
     background-color: white;
     border-color: white;
 }
+.login-modal a{
+  color: #03ffcc;
+  text-decoration: none;}
 
 /**Card**/
 .separator,#blog{
