@@ -454,6 +454,33 @@ footer.tentang{
   margin-top:3%;
   width: 98vw;
 }
+
+/* Tambah Data */
+body.tambahdata{
+  background-color: #878584;
+}
+div.tambahdata{
+  margin-left: 46%;
+  margin-top: 2%;
+}
+div#results.results{
+  width: 30%;
+  height: 60%;
+  background-color: #f7f2f0;
+  margin-left: 35%;
+}
+form.tambahdata{
+  margin-top: 10%;
+  width: 30%;
+  height: 60%;
+  background-color: #f7f2f0;
+  margin-left: 35%;
+}
+footer.tambahdata{
+  margin-top: 14.2%;
+}
+
+
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 540px) {
   .topnav a {

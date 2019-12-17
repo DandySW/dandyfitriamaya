@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KOTA OSING - The Sunrise of Java</title>
+    <link rel="icon" type="image/png" href="Index gambar dan css/Udeng-black.png">
+    <link rel="stylesheet" type="text/css" href="Index gambar dan css/index.css">
+    <script src="jquery-3.4.1.js"></script>
+    <script>
+    $(document).ready(function(){
+      $("button").click(function(){
+        var x = $("form").serializeArray();
+        $.each(x, function(i, field){
+          $("#results").append(field.name + ":" + field.value + " ");
+        });
+      });
+    });
+  </script>
+</head>
+  <body align="left">
+    <body class="tambahdata">
+      <!-- navbar -->
+      <div class="topnav">
+          <a href="index.html">KOTA OSING</a>
+          <a style="float:right" href="tentang.html">Tentang</a>
+          <a style="float:right" href="register.html">Daftar</a>
+          <a style="float:right" href="login.html">Masuk</a>
+
+          <div class="search-container">
+            <form action="/more.html">
+                <input type="text" placeholder="Search.." name="search">
+            </form>
+          </div>
+      </div>
+      <!-- end navbar -->
+
+    <form action="" class="tambahdata" align="center">
+      <h4>Tambahkan Data</h4>
+      User Name: <input type="text" name="User Name" placeholder="User Name"><br><br>
+      Password: <input type="password" name="Password" placeholder="Password"><br><br>
+    </form>
+    <div class="tambahdata">
+      <button>Simpan Data</button><br><br>
+    </div>
+
+    <div class="results" id="results">Data yang Ditambahkan:<br></div>
+
+    <footer class="tambahdata">
+      &#169; Kota Osing 2019
+    </footer>
+  </body>
+</html>
